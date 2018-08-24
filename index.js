@@ -32,7 +32,7 @@ while(numerosEncontrados < 15){
     }while(somatorioPosterior < somatorioAnterior);
 
     if(somatorioAnterior == somatorioPosterior){
-        console.log(numero + "     " + numeroPosterior);
+        console.log("Número Inicial: " + numero + " / Número Final: " + numeroPosterior + " / Somatório Base: " + somatorioAnterior);
         numerosEncontrados++;
     }
 }
